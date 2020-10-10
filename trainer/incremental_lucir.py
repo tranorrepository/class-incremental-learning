@@ -14,33 +14,22 @@ old_scores = []
 new_scores = []
 
 def get_ref_features(self, inputs, outputs):
-    """The function for getting reference model features."""
     global ref_features
     ref_features = inputs[0]
 
 def get_cur_features(self, inputs, outputs):
-    """The function for getting current model features."""
     global cur_features
     cur_features = inputs[0]
 
 def get_old_scores_before_scale(self, inputs, outputs):
-    """The function for getting old scores."""
     global old_scores
     old_scores = outputs
 
 def get_new_scores_before_scale(self, inputs, outputs):
-    """The function for getting new scores."""
     global new_scores
     new_scores = outputs
 
 def map_labels(order_list, Y_set):
-    """The function for mapping labels between the true class order and relative class order.
-    Args:
-      order_list: the list of the true class order and relative class order.
-      Y_set: the labels before mapping.
-    Return:
-      The labels after mapping.
-    """
     map_Y = []
     for idx in Y_set:
         map_Y.append(order_list.index(idx))
