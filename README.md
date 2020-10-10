@@ -47,7 +47,6 @@ Clone this repository:
 
 ```bash
 git clone https://github.com/yaoyao-liu/class-incremental-learning.git 
-cd class-incremental-learning
 ```
 
 ### Running Experiments
