@@ -4,8 +4,6 @@
 [![Python](https://img.shields.io/badge/python-3.6-blue.svg?style=flat-square)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/pytorch-1.2.0-%237732a8?style=flat-square)](https://pytorch.org/)
 
-\[[Paper](https://arxiv.org/)\]
-
 ### Installation
 
 In order to run this repository, we advise you to install python 3.6 and PyTorch 1.2.0 with Anaconda.
