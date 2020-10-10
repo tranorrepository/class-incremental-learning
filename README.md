@@ -78,3 +78,11 @@ python3 main.py --nb_cl_fg=50 --nb_cl=10 --gpu=0 --random_seed=1993 --fusion_lr=
 python3 main.py --nb_cl_fg=50 --nb_cl=5 --gpu=0 --random_seed=1993 --fusion_lr=1e-05 --baseline=lucir --imgnet_backbone=resnet18 --branch_mode=dual --branch_1=ss --branch_2=fixed --dataset=imagenet_sub --data_dir=./seed_1993_subset_100_imagenet/data --test_batch_size=50 --epochs=90 --num_workers=16 --custom_weight_decay=1e-4 --test_batch_size=50 --ckpt_label=Exp_01
 python3 main.py --nb_cl_fg=50 --nb_cl=2 --gpu=0 --random_seed=1993 --fusion_lr=1e-05 --baseline=lucir --imgnet_backbone=resnet18 --branch_mode=dual --branch_1=ss --branch_2=fixed --dataset=imagenet_sub --data_dir=./seed_1993_subset_100_imagenet/data --test_batch_size=50 --epochs=90 --num_workers=16 --custom_weight_decay=1e-4 --test_batch_size=50 --ckpt_label=Exp_01
 ```
+
+### Acknowledgements
+
+Our implementation uses the source code from the following repositories:
+
+* [Learning a Unified Classifier Incrementally via Rebalancing](https://github.com/hshustc/CVPR19_Incremental_Learning)
+
+* [iCaRL: Incremental Classifier and Representation Learning](https://github.com/srebuffi/iCaRL)
