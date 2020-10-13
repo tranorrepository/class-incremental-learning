@@ -4,7 +4,7 @@
 [![Python](https://img.shields.io/badge/python-3.6-blue.svg?style=flat-square)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/pytorch-1.2.0-%237732a8?style=flat-square)](https://pytorch.org/)
 
-\[[arXiv preprint](https://arxiv.org/)\]
+\[[arXiv preprint](https://arxiv.org/pdf/2010.05063.pdf)\]
 
 #### Summary
 
@@ -90,6 +90,7 @@ Please cite our paper if it is helpful to your work:
                Sun, Qianru},
   title     = {Meta-Aggregating Networks for Class-Incremental Learning},
   journal   = {arXiv},
+  volume    = {2010.05063},
   year      = {2020}
 }
 ```
